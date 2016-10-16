@@ -1,0 +1,94 @@
+Started with run options --seed 33359
+
+
+
+Progress: |[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_upvote", BooksControllerTest, 0.28383679900071]
+ test_should_get_upvote#BooksControllerTest (0.28s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"upvote", :controller=>"books"}
+            test/controllers/books_controller_test.rb:40:in `block in <class:BooksControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_should_get_delete", BooksControllerTest, 0.2911268690004363]
+ test_should_get_delete#BooksControllerTest (0.29s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"books"}
+            test/controllers/books_controller_test.rb:35:in `block in <class:BooksControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_should_get_update", BooksControllerTest, 0.29219656699933694]
+ test_should_get_update#BooksControllerTest (0.29s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"update", :controller=>"books"}
+            test/controllers/books_controller_test.rb:30:in `block in <class:BooksControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_create", BooksControllerTest, 0.30242000200087205]
+ test_should_get_create#BooksControllerTest (0.30s)
+ActionController::ParameterMissing:         ActionController::ParameterMissing: param is missing or the value is empty: item
+            app/controllers/books_controller.rb:104:in `post_params'
+            app/controllers/books_controller.rb:32:in `create'
+            test/controllers/books_controller_test.rb:20:in `block in <class:BooksControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_should_get_show", BooksControllerTest, 0.3036457890011661]
+ test_should_get_show#BooksControllerTest (0.30s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"show", :controller=>"books"}
+            test/controllers/books_controller_test.rb:10:in `block in <class:BooksControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_should_get_upvote", MoviesControllerTest, 0.3080357629987702]
+ test_should_get_upvote#MoviesControllerTest (0.31s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"upvote", :controller=>"movies"}
+            test/controllers/movies_controller_test.rb:40:in `block in <class:MoviesControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_delete", MoviesControllerTest, 0.3176584989996627]
+ test_should_get_delete#MoviesControllerTest (0.32s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"movies", :id=>"96712784"}
+            test/controllers/movies_controller_test.rb:35:in `block in <class:MoviesControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_should_get_create", MoviesControllerTest, 0.3236402199981967]
+ test_should_get_create#MoviesControllerTest (0.32s)
+ActionController::ParameterMissing:         ActionController::ParameterMissing: param is missing or the value is empty: item
+            app/controllers/movies_controller.rb:106:in `post_params'
+            app/controllers/movies_controller.rb:34:in `create'
+            test/controllers/movies_controller_test.rb:20:in `block in <class:MoviesControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_show", MoviesControllerTest, 0.32991185699938796]
+ test_should_get_show#MoviesControllerTest (0.33s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"show", :controller=>"movies"}
+            test/controllers/movies_controller_test.rb:10:in `block in <class:MoviesControllerTest>'
+
+[0m[1000D[K[31m FAIL[0m["test_should_get_update", MoviesControllerTest, 0.33823249000124633]
+ test_should_get_update#MoviesControllerTest (0.34s)
+        Expected response to be a <success>, but was <302>
+        test/controllers/movies_controller_test.rb:31:in `block in <class:MoviesControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_Should_be_able_to_call_destroy", AlbumsControllerTest, 0.3444112760007556]
+ test_Should_be_able_to_call_destroy#AlbumsControllerTest (0.34s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"delete", :controller=>"albums", :id=>"594561908"}
+            test/controllers/albums_controller_test.rb:35:in `block in <class:AlbumsControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_show", AlbumsControllerTest, 0.3808553999988362]
+ test_should_get_show#AlbumsControllerTest (0.38s)
+NoMethodError:         NoMethodError: undefined method `albums' for #<AlbumsControllerTest:0x007fbd31952298>
+            test/controllers/albums_controller_test.rb:10:in `block in <class:AlbumsControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_should_get_upvote", AlbumsControllerTest, 0.38839542400091887]
+ test_should_get_upvote#AlbumsControllerTest (0.39s)
+ActionController::UrlGenerationError:         ActionController::UrlGenerationError: No route matches {:action=>"upvote", :controller=>"albums"}
+            test/controllers/albums_controller_test.rb:40:in `block in <class:AlbumsControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_should_get_create", AlbumsControllerTest, 0.3899970589991426]
+ test_should_get_create#AlbumsControllerTest (0.39s)
+ActionController::ParameterMissing:         ActionController::ParameterMissing: param is missing or the value is empty: item
+            app/controllers/albums_controller.rb:100:in `post_params'
+            app/controllers/albums_controller.rb:34:in `create'
+            test/controllers/albums_controller_test.rb:20:in `block in <class:AlbumsControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[0m[1000D[K[31mERROR[0m["test_should_get_edit", AlbumsControllerTest, 0.39091811899925233]
+ test_should_get_edit#AlbumsControllerTest (0.39s)
+NoMethodError:         NoMethodError: undefined method `albums' for #<AlbumsControllerTest:0x007fbd31828c78>
+            test/controllers/albums_controller_test.rb:25:in `block in <class:AlbumsControllerTest>'
+
+[0m[1000D[K[31mERROR[0m["test_should_get_update", AlbumsControllerTest, 0.39743851000093855]
+ test_should_get_update#AlbumsControllerTest (0.40s)
+NoMethodError:         NoMethodError: undefined method `albums' for #<AlbumsControllerTest:0x007fbd30f919e8>
+            test/controllers/albums_controller_test.rb:30:in `block in <class:AlbumsControllerTest>'
+
+[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m|
+
+Finished in 0.40396s
+25 tests, 10 assertions, [31m1 failures, 15 errors, [0m[33m0 skips[0m

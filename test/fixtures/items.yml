@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+minimal:
+  name: "Minimal Item"
+  rank: 0
+  kind: "Book"
+
+missing_name:
+  author: "Someone"
+  description: MyText
+  rank: 1
+  kind: "Album"
+
+too_low_rank:
+  author: "Too Low Rank"
+  description: MyText
+  rank: -1
+  kind: "Movie"
+
+invalid_kind:
+  author: "Too Low Rank"
+  description: MyText
+  rank: -1
+  kind: "TV Show"
+
+album_sample:
+  name: "Sample Album"
+  author: "Someone"
+  description: "MyText"
+  rank: 100
+  kind: "Album"
+
+braveheart:
+  name: "Braveheart"
+  author: "Mel Gibson"
+  rank: 1
+  kind: "Movie"
+
+braveheart_clone:
+  name: "Braveheart"
+  author: "Mel Gibson"
+  rank: 1
+  kind: "Movie"

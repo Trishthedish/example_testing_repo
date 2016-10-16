@@ -1,0 +1,21 @@
+<h1>
+  <%= @item.name %>
+  <small>
+    <%= @author_text %> by <%= @item.author %>
+  </small>
+</h1>
+<h4>
+  Ranked: <%= @item.rank %>
+</h4>
+<p class="flash-notice">
+  <%= flash[:notice] %>
+  <%     flash[:notice] = nil %>
+
+</p>
+<%= button_to "Upvote", @upvote_path, {method: :patch}  %>
+<%= link_to "Edit #{@item.name}", @edit_path, {class: "btn btn-default"} %>
+<%= link_to "Delete", @delete_path, {class: "btn btn-default red", method: "delete"} %>
+<%= link_to "View all #{@media}", @view_media_path, {class: "btn btn-default"} %>
+<%= link_to "View all Media", root_path, {class: "btn btn-default"} %>
+
+<%# albums_upvote_path(item.id) %>
