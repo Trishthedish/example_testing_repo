@@ -20,7 +20,7 @@ too_low_rank:
 invalid_kind:
   author: "Too Low Rank"
   description: MyText
-  rank: -1
+  rank: 0
   kind: "TV Show"
 
 album_sample:
